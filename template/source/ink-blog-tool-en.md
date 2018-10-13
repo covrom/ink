@@ -107,8 +107,8 @@ ink convert /path/_posts
 Local Build
 
 1. Install [Golang](http://golang.org/doc/install) environment
-2. Run `go get github.com/InkProject/ink`, compile and get ink
-3. Run `ink preview $GOPATH/src/github.com/InkProject/ink/template`, preview blog
+2. Run `go get github.com/covrom/ink`, compile and get ink
+3. Run `ink preview $GOPATH/src/github.com/covrom/ink/template`, preview blog
 
 Docker Build (Example)
 
@@ -118,7 +118,7 @@ Docker Build (Example)
 
 ## Theme
 
-- Dark(Official Theme): [https://github.com/InkProject/ink-theme-dark](https://github.com/InkProject/ink-theme-dark)
+- Dark(Official Theme): [https://github.com/covrom/ink-theme-dark](https://github.com/covrom/ink-theme-dark)
 - simple: [https://github.com/myiq/ink-simple](https://github.com/myiq/ink-simple)
 
 ## Related Toturials
@@ -129,7 +129,7 @@ Docker Build (Example)
 
 [CC Attribution-NonCommercial License 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
 
-[https://github.com/InkProject/ink/issues](https://github.com/InkProject/ink/issues)
+[https://github.com/covrom/ink/issues](https://github.com/covrom/ink/issues)
 
 ## Change Log
 

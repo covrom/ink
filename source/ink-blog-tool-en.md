@@ -1,12 +1,20 @@
+title: "An Elegant Static Blog Generator —— InkPaper"
+date: 2015-03-01 17:00:00 +0800
+update: 2016-07-11 17:00:00 +0800
+author: me
+cover: "-/images/example-en.png"
+tags:
+    - 设计
+    - 写作
+preview: InkPaper is an static blog generator developed by Golang, No dependencies, Cross platform, Easy use, Fast build, Elegant theme.
+
+---
+
 ## Introduce
 
 InkPaper is an static blog generator developed by Golang, No dependencies, Cross platform, Easy use, Fast build, Elegant theme.
 
-[![release](https://img.shields.io/badge/release-v2018--07--27-blue.svg)](http://www.chole.io/)
-[![apm](https://img.shields.io/badge/license-CC%20BY--NC%204.0-blue.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
-
-
-![InkPaper - An Elegant Static Blog Generator](template/source/images/example-en.png)
+![InkPaper - An Elegant Static Blog Generator](-/images/example-en.png)
 
 ### Quick Start
 - Download & Extract [Ink](http://www.chole.io/)，Run `ink preview`
@@ -28,7 +36,7 @@ site:
     root: Website Root Path #Optional
     lang: Website Language #Support en, zh, ru, ja, Configurable in theme/lang.yml
     url: Website URL #For RSS Generating
-    link: Article Link Scheme #Default Is {title}.html，Support {year},{month},{day},{hour},{minute},{second},{title} Variables
+    link: Article Link Scheme #Default Is {title}.html，Support {year},{month},{day},{title} Variables
 
 authors:
     AuthorID:
@@ -72,7 +80,7 @@ Markdown Format's Body
 - Run `ink publish` in blog directory to automatically build and publish
 - Or run `ink build` to manually deploy generated `public` directory
 
-> **Tips**: When `source` directory changed，`ink preview` will automatically rebuild blog，refresh browser to update
+> **Tips**: When files changed，`ink preview` will automatically rebuild blog，refresh browser to update.
 
 ## Customization
 
@@ -99,8 +107,8 @@ ink convert /path/_posts
 Local Build
 
 1. Install [Golang](http://golang.org/doc/install) environment
-2. Run `go get github.com/covrom/ink`, compile and get ink
-3. Run `ink preview $GOPATH/src/github.com/covrom/ink/template`, preview blog
+2. Run `go get github.com/InkProject/ink`, compile and get ink
+3. Run `ink preview $GOPATH/src/github.com/InkProject/ink/template`, preview blog
 
 Docker Build (Example)
 
@@ -110,24 +118,21 @@ Docker Build (Example)
 
 ## Theme
 
-- Dark(Official Theme): [https://github.com/covrom/ink-theme-dark](https://github.com/covrom/ink-theme-dark)
+- Dark(Official Theme): [https://github.com/InkProject/ink-theme-dark](https://github.com/InkProject/ink-theme-dark)
 - simple: [https://github.com/myiq/ink-simple](https://github.com/myiq/ink-simple)
 
 ## Related Toturials
 
 - [Automatically deploy your Ink blog to GitHub pages wiht Travis CI](http://www.shery.me/blog/travis-ci.html)
 
-## License
-[CC Attribution-NonCommercial License 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
-
 ## Issue Report
 
-[https://github.com/covrom/ink/issues](https://github.com/covrom/ink/issues)
+[CC Attribution-NonCommercial License 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
+
+[https://github.com/InkProject/ink/issues](https://github.com/InkProject/ink/issues)
 
 ## Change Log
 
-- [2018-07-27] Adds ink new command
-- [2017-02-25] Fix bugs and merge some PRs
 - [2016-07-11] Fix bugs and merge many PRs
 - [2015-08-15] Bug fix, support RSS feed, improve theme
 - [2015-07-04] Bug fix, improve theme, support top, i18n, subtemplate

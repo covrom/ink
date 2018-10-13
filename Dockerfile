@@ -1,5 +1,5 @@
 FROM golang:latest
-RUN go get github.com/InkProject/ink
+RUN go get github.com/covrom/ink
 EXPOSE 8000
-WORKDIR /go/src/github.com/InkProject/ink
+WORKDIR /go/src/github.com/covrom/ink
 CMD ["ink", "preview", "template"]

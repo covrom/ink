@@ -118,8 +118,8 @@ ink convert /path/_posts
 本地运行
 
 1. 配置[GO](http://golang.org/doc/install)语言环境。
-2. 运行命令`go get github.com/covrom/ink`，编译并获取ink。
-3. 运行命令`ink preview $GOPATH/src/github.com/covrom/ink/template`，预览博客。
+2. 运行命令`go get github.com/InkProject/ink`，编译并获取ink。
+3. 运行命令`ink preview $GOPATH/src/github.com/InkProject/ink/template`，预览博客。
 
 Docker构建（示例）
 
@@ -129,7 +129,7 @@ Docker构建（示例）
 
 ## 主题
 
-- Dark(Official Theme): [https://github.com/covrom/ink-theme-dark](https://github.com/covrom/ink-theme-dark)
+- Dark(Official Theme): [https://github.com/InkProject/ink-theme-dark](https://github.com/InkProject/ink-theme-dark)
 - simple: [https://github.com/myiq/ink-simple](https://github.com/myiq/ink-simple)
 
 ## 相关链接
@@ -138,7 +138,7 @@ Docker构建（示例）
 
 ## 反馈贡献
 
-纸小墨基于 [CC Attribution-NonCommercial License 4.0](https://creativecommons.org/licenses/by-nc/4.0/) 协议，目前为止它仍然是个非成熟的开源项目，非常欢迎任何人的任何贡献。如有问题可报告至 [https://github.com/covrom/ink/issues](https://github.com/covrom/ink/issues)。
+纸小墨基于 [CC Attribution-NonCommercial License 4.0](https://creativecommons.org/licenses/by-nc/4.0/) 协议，目前为止它仍然是个非成熟的开源项目，非常欢迎任何人的任何贡献。如有问题可报告至 [https://github.com/InkProject/ink/issues](https://github.com/InkProject/ink/issues)。
 
 ## 更新历史
 
